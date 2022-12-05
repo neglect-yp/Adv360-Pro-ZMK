@@ -24,29 +24,29 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &none                                                                        &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                                        &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT              &kp BSPC  &kp RCTRL          &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
+        &none     &none     &none    &none    &none      &none  &none                                                                        &mo 3 &none  &none  &none     &none    &none    &none
+        &kp ESC   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                                        &none &kp Y  &kp U  &kp I     &kp O    &kp P    &none
+        &kp TAB   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT              &kp BSPC  &kp RCTRL          &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &none
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B         &none    &none     &mo 1     &none &none &mo 2     &none     &none          &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
         &none     &kp GRAVE &kp LCTRL &kp LEFT &kp RIGHT               &kp LGUI &kp SPACE &kp LSHFT             &kp RSHFT &kp ENTER &kp RGUI              &kp UP &kp DOWN  &kp LBKT &kp RBKT &none
       >;
     };
     lower {
       bindings = <
-        &trans    &trans    &trans   &trans   &trans     &trans &trans                                                                       &trans &trans   &trans   &trans &trans    &trans   &trans
-        &trans    &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &none                                                                        &none  &kp N6   &kp N7   &kp N8 &kp N9    &kp N0   &trans
-        &trans    &trans    &trans   &trans   &trans     &trans &none           &trans    &trans               &trans    &trans              &none  &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans   &trans
-        &trans    &trans    &trans   &trans   &trans     &trans        &none    &none     &trans   &none &none &trans    &none     &none            &trans   &trans   &trans &trans    &trans   &trans
-        &trans    &trans    &trans   &trans   &trans                   &trans   &trans    &trans               &trans    &trans    &trans                    &trans   &trans &trans    &trans   &trans
+        &trans    &trans    &trans   &trans   &trans     &trans &trans                                                                      &trans &trans   &trans   &trans &trans    &trans   &trans
+        &trans    &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &none                                                                       &none  &kp N6   &kp N7   &kp N8 &kp N9    &kp N0   &trans
+        &trans    &trans    &trans   &trans   &trans     &trans &none           &trans    &trans              &trans    &trans              &none  &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans   &trans
+        &trans    &trans    &trans   &trans   &trans     &trans        &none    &none     &trans  &none &none &trans    &none     &none            &trans   &trans   &trans &trans    &trans   &trans
+        &trans    &trans    &trans   &trans   &trans                   &trans   &trans    &trans              &trans    &trans    &trans                    &trans   &trans &trans    &trans   &trans
       >;
     };
     upper {
       bindings = <
-        &trans    &trans    &trans   &trans   &trans     &trans &trans                                                                       &trans &trans    &trans   &trans &trans    &trans   &trans
-        &trans    &trans    &trans   &trans   &trans     &trans &none                                                                        &none  &trans    &trans   &trans &trans    &trans   &trans
-        &trans    &trans    &trans   &trans   &trans     &trans &none           &trans    &trans               &trans    &trans              &none  &kp MINUS &trans   &trans &trans    &trans   &trans
-        &trans    &trans    &trans   &trans   &trans     &trans        &none    &none     &trans   &none &none &trans    &none     &none            &trans    &trans   &trans &trans    &trans   &trans
-        &trans    &trans    &trans   &trans   &trans                   &trans   &trans    &trans               &trans    &trans    &trans                     &trans   &trans &trans    &trans   &trans
+        &trans    &trans    &trans    &trans    &trans    &trans    &trans                                                                      &trans &trans    &trans    &trans   &trans   &trans    &trans
+        &trans    &kp EXCL  &kp DQT   &kp HASH  &kp DLLR  &kp PRCNT &none                                                                       &none  &kp AMPS  &kp SQT   &kp LPAR &kp RPAR &kp CARET &trans
+        &trans    &kp AT    &kp GRAVE &kp ASTRK &kp TILDE &trans    &none           &trans    &trans              &trans    &trans              &none  &kp MINUS &kp EQUAL &kp LBRC &kp RBRC &kp PIPE  &trans
+        &trans    &trans    &trans    &trans    &trans    &trans           &none    &none     &trans  &none &none &trans    &none     &none            &trans    &kp PLUS  &kp LBKT &kp RBKT &kp BSLH  &trans
+        &trans    &trans    &trans    &trans    &trans                     &trans   &trans    &trans              &trans    &trans    &trans                     &trans    &trans   &trans   &trans    &trans
       >;
     };
     mod {
