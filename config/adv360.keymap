@@ -45,7 +45,7 @@
         &trans    &trans    &trans    &trans    &trans    &trans    &trans                                                                      &trans &trans    &trans    &trans   &trans   &trans    &trans
         &trans    &kp EXCL  &kp DQT   &kp HASH  &kp DLLR  &kp PRCNT &none                                                                       &none  &kp AMPS  &kp SQT   &kp LPAR &kp RPAR &kp CARET &trans
         &trans    &kp AT    &kp GRAVE &kp ASTRK &kp TILDE &trans    &none           &trans    &trans              &trans    &trans              &none  &kp MINUS &kp EQUAL &kp LBRC &kp RBRC &kp PIPE  &trans
-        &trans    &trans    &trans    &trans    &trans    &trans           &none    &none     &trans  &none &none &trans    &none     &none            &trans    &kp PLUS  &kp LBKT &kp RBKT &kp BSLH  &trans
+        &trans    &trans    &trans    &trans    &trans    &trans           &none    &none     &trans  &none &none &trans    &none     &none            &kp UNDER &kp PLUS  &kp LBKT &kp RBKT &kp BSLH  &trans
         &trans    &trans    &trans    &trans    &trans                     &trans   &trans    &trans              &trans    &trans    &trans                     &trans    &trans   &trans   &trans    &trans
       >;
     };
